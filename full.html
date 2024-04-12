@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+
+
+/* ################# navbar styling##################### */
+
+.container{
+    background:  linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)) , url(netflix2-back.jpg);
+    
+    height: 95vh;
+}
+
+.navbar{
+  
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.lang{
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+    
+}
+
+
+
+
+.logo img{
+
+    padding-right: 600px;
+    padding-top: 25px;
+    height: 70px;
+    width: 40;
+}
+.lang1{
+    color: #fff;
+    display: flex;
+    border: 1px solid #fff;
+    width: 123px; 
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    justify-content: space-evenly;
+    font-weight: bold
+}
+.lang-u{
+    font-size:20px ;
+    font-weight: 700;
+}
+.sign{
+    text-decoration: none;
+   height: 32px;
+   width: 76px;
+   border-radius: 3px;
+   text-align: center;
+    background-color: red;
+    color: white;
+    
+    
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    
+}
+
+
+.content h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 850;
+    
+}
+
+.content h6{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.content p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 250;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.red{
+    display: flex;
+   gap: 10px;
+   
+}
+
+.get{
+    font-size: 22px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+      width: 200px;
+      height: 55px;
+}
+.email{
+    width: 380px;
+    height: 55px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #8b8888;
+     color: #fff;
+    font-size: 16px;
+    
+    padding: 15px;
+    
+}
+
+
+
+.line{
+    border: 5px solid rgb(47, 47, 47);
+}
+
+
+/* ########################## section 1####################### */
+
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+}
+
+.head1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.head1 h1{
+    margin-right: 100px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.head1 h5{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 200px;
+}
+/* section 2 */
+.sec2{
+  
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    
+}
+
+.head2{
+    margin-left: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.head2 h1{
+    margin-right: 150px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.head2 h5{
+ 
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 300px;
+}
+/* section 3 */
+.sec3{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+}
+
+.head3{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.head3 h1{
+    margin-right: 50px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.head3 h5{
+    margin-right: 70px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 200px;
+}
+/* section 4 */
+.sec4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+}
+
+.head4{
+    margin-left: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.head4 h1{
+    margin-right: 300px;
+   
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.head4 h5{
+    margin-right: 150px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+.one{
+    background: black;
+}
+
+.free{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+
+.headings h1{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+}
+
+/* .other{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+     width: 1300px;
+   
+    background: rgb(51, 51, 51);
+   height: 100px;
+    
+} */
+
+/* .other h5{
+     
+    padding: 30px;
+    font-size: 24px;
+     font-weight: 400;
+     margin-right: 900px;
+}
+
+
+ .plus{
+    margin-right: 30px;
+    font-size: 70px;
+    font-weight: 100;
+    animation: animate 2s ;
+} */
+
+.other {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+     width: 1300px;
+   
+    background: rgb(51, 51, 51);
+   height: 100px;
+    
+   
+}
+
+.other h5 {
+    flex: 1;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
+
+.plus {
+    margin-right: 30px;
+    font-size: 70px;
+    font-weight: 100;
+    animation: animate 2s;
+}
+
+.a{
+    margin-right: 900px;
+}
+.b{
+    margin-right: 750px;
+}
+.c{
+    margin-right: 850px;
+}
+.d{
+    margin-right: 880px;
+}
+.e{
+    margin-right: 750px;
+}
+.f{
+    margin-right: 800px;
+}
+
+.other{
+  
+    background: rgb(51, 51, 51);
+    animation-name: change-bg-color;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in-out;
+    /* animation-iteration-count: 3; */
+   
+}
+
+@keyframes change-bg-color{
+    from{
+           background: rgb(51, 51, 51);
+    }
+    to{
+           background: rgb(65, 62, 62);
+    }
+}
+
+.omnigel{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    
+}
+
+.conte{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+.buto{
+    
+    display: flex;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+ .buto input{
+       margin-right: 15px;
+ }
+
+ .footer{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-left: 100px;
+    background: black;
+    
+}
+ 
+.foot h4{
+   
+ font-weight: 500;
+    margin-bottom: 10px;
+    color: #a8a3a3;
+    font-size: 14px;
+}
+
+
+
+.foot a{
+   
+    margin-bottom: 10px;
+    color: #a8a3a3;
+    font-size: 14px;
+}
+
+
+.him{
+    margin-top: 10px;
+}
+
+
+
+/* Add your existing CSS styles here... */
+
+/* Animation for the content section */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 1s ease forwards; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Animation for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    opacity: 0; /* Initially hidden */
+    animation: slideIn 1s ease forwards; /* Slide-in animation */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Add your remaining CSS styles here... */
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar">
+        <div class="logo">
+            <img class="log" src="netflix1.logo.png" alt="">
+        </div>
+        <div class="lang">
+           <div class="lang1">
+            <ion-icon name="language-outline" class="lang-u "></ion-icon>
+            <h5 >English</h5>
+            <ion-icon name="caret-down-outline" class="lang-d "></ion-icon>
+            </div>
+            <div class="sign">
+            <a href="####" class="sign"> Sign In</a>
+            </div>
+
+        </div>
+
+    </nav>
+
+       <div class="content">
+        <h1>Unlimited movies, TV shows and more</h1>
+        <h6>Watch anywhere. Cancel anytime.</h6>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="red">
+        
+        <input type="email" id="email" class="email" name="email" id="rohit" target="_blank"  required placeholder= "Email address">
+        <!-- <input type="email" name="email" id="email" placeholder="Your email address" required> -->
+        
+     
+        <a href="####" class="sign get">Get Started ></a>
+        </div>
+       </div>
+
+</div>
+ 
+<div class="line">
+
+</div>
+<!-- section 1 -->
+<div class="sec1">
+    <div class="head1">
+        <h1>Enjoy on your TV</h1>
+        <h5>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h5>
+
+    </div>
+
+    <div class="photo1">
+        <img src="sec-1.png" alt="">
+    </div>
+</div>
+<div class="line">
+
+</div>
+<!-- section 2 -->
+<div class="sec2">
+    <div class="head2">
+        <h1>Download your shows to watch offline</h1>
+        <h5>Save your favourites easily and always have something to watch.</h5>
+
+    </div>
+
+    <div class="photo2">
+        <img src="sec-2.jpg" alt="">
+    </div>
+</div>
+<div class="line">
+
+</div>
+<!-- section 3 -->
+<div class="sec3">
+    <div class="head3">
+        <h1>Watch everywhere</h1>
+        <h5 >Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h5>
+
+    </div>
+
+    <div class="photo3">
+        <img src="sec-3.png" alt="">
+    </div>
+</div>
+<div class="line">
+
+</div>
+<!-- section 4 -->
+<div class="sec4">
+    <div class="head4">
+        <h1>Create profiles for kids</h1>
+        <h5>Send children on adventures with their favourite characters in a space made just for them—free with your membership.
+
+        </h5>
+    </div>
+    
+
+    <div class="photo4">
+        <img src="sec-4.png" alt="">
+    </div>
+</div>
+<div class="line">
+
+</div>
+<div class="free">
+    <div class="headings">
+        <h1>Frequently Asked Questions</h1>
+
+    </div>
+    
+    <div class="other">
+        
+        <h5 class="a">What is netflix1?</h5>
+        <a class="plus">+</a>
+    </div>
+    <div class="other">
+        <h5 class="b">How much does Netflix cost?</h5>
+        <a href="about.html" class="plus">+</a>
+    </div>
+    <div class="other">
+        <h5 class="c">Where can I watch?</h5>
+        <a class="plus">+</a>
+    </div>
+    <div class="other">
+        <h5 class="d">How do I cancel?</h5>
+        <a class="plus">+</a>
+    </div>
+    <div class="other">
+        <h5 class="e">What can I watch on Netflix?</h5>
+        <a class="plus">+</a>
+    </div>
+    <div class="other">
+        <h5 class="f">Is Netflix good for Kids?</h5>
+        <a class="plus">+</a>
+    </div>
+
+    
+
+</div>
+
+<div class="omnigel">
+    <div class="conte">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    </div>
+    <div class="buto">
+        <input type="email" id="email" class="email" name="email" id="rohit" target="_blank"  required placeholder= "Email address">
+        <!-- <input type="email" name="email" id="email" placeholder="Your email address" required> -->
+        
+     
+        <a href="####" class="sign get">Get Started ></a>
+    </div>
+</div>
+
+<div class="line"></div>
+
+<div class="footer">
+    <div class="foot">
+        <h4>Question? Call<a href="#"> 000-800-919-1694</a></h4>
+       
+        <a href="#">FAQ</a>
+        <a href="#">Account</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Privacy</a>
+        <a href="#">Speed Test</a>
+        <div class="lang1">
+            <ion-icon name="language-outline" class="lang-u "></ion-icon>
+            <h5 >English</h5>
+            <ion-icon name="caret-down-outline" class="lang-d "></ion-icon>
+            </div>
+            <h4 class="him">Netflix India</h4>
+        
+    </div>
+    <div class="foot">
+       
+        <a href="#">Help Centre</a>
+        <a href="#">Jobs</a>
+        <a href="#">Cookie Preferences</a>
+        <a href="#">Legal Notices</a>
+        
+    </div>
+    <div class="foot">
+       
+        <a href="#">Account</a>
+        <a href="#">Ways to Watch</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">Only on Netflix</a>
+        
+    </div>
+    <div class="foot">
+       
+        <a href="#">Media Centre</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Contact Us</a>
+        
+    </div>
+</div>
+
+</body>
+</html>
